@@ -1,0 +1,28 @@
+/*
+ * @lc app=leetcode id=190 lang=java
+ *
+ * [190] Reverse Bits
+ */
+
+// @lc code=start
+public class Solution {
+    // you need treat n as an unsigned value
+    public int reverseBits(int n) {
+        // TODO: need submit?
+        int res = 0;
+        for(int i = 0; i < 2; i++) {
+            if((1&n) != 0) {
+                res |= 1;
+                n <<= 1;
+                res <<= 1;
+            } else {
+                res |= 0;
+                n <<= 1;
+                res <<= 1;
+            }
+        }
+        return res;
+    }
+}
+// @lc code=end
+
