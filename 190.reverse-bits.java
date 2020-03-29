@@ -2,6 +2,7 @@
  * @lc app=leetcode id=190 lang=java
  *
  * [190] Reverse Bits
+<<<<<<< HEAD
  *
  * https://leetcode.com/problems/reverse-bits/description/
  *
@@ -56,12 +57,15 @@
  * 
  * If this function is called many times, how would you optimize it?
  * 
+=======
+>>>>>>> 7df879fbf8c844fc5f42811ebabe8930046d96dc
  */
 
 // @lc code=start
 public class Solution {
     // you need treat n as an unsigned value
     public int reverseBits(int n) {
+<<<<<<< HEAD
         // TODO: need sumbit??
         int res = 0;
         for(int i = 0; i < 32; i++) {
@@ -81,6 +85,19 @@ public class Solution {
                 } else {
                 res <<= 1;
                 }
+=======
+        // TODO: need submit?
+        int res = 0;
+        for(int i = 0; i < 2; i++) {
+            if((1&n) != 0) {
+                res |= 1;
+                n <<= 1;
+                res <<= 1;
+            } else {
+                res |= 0;
+                n <<= 1;
+                res <<= 1;
+>>>>>>> 7df879fbf8c844fc5f42811ebabe8930046d96dc
             }
         }
         return res;

@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 import java.time.Year;
 
+=======
+>>>>>>> 7df879fbf8c844fc5f42811ebabe8930046d96dc
 /*
  * @lc app=leetcode id=4 lang=java
  *
@@ -8,6 +11,7 @@ import java.time.Year;
 
 // @lc code=start
 class Solution {
+<<<<<<< HEAD
     /**
      * offical solution
      * @param A
@@ -47,6 +51,10 @@ class Solution {
             }
         }
         return 0.0;
+=======
+    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+        
+>>>>>>> 7df879fbf8c844fc5f42811ebabe8930046d96dc
     }
 }
 // @lc code=end
